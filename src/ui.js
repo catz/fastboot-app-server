@@ -1,7 +1,7 @@
 "use strict";
 
 const chalk = require('chalk');
-const cluster = require('cluster');
+const cluster = require('./cluster');
 
 class UI {
   constructor() {

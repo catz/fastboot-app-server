@@ -1,7 +1,7 @@
 "use strict";
 
 const assert           = require('assert');
-const cluster          = require('cluster');
+const cluster          = require('./cluster');
 const os               = require('os');
 
 const Worker = require('./worker');
