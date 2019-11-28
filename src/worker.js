@@ -87,7 +87,7 @@ class Worker {
     return this.httpServer.serve(this.middleware)
       .then(() => {
         process.send({ event: 'http-online' });
-      }).
+      })
       .catch(() => {});
   }
 
